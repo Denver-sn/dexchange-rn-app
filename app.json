@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "dexchange",
+    "name": "Dexchange",
     "slug": "dexchange",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,16 +18,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "denver.dexchangetransfert"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "denver.dexchangetransfert"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "76467617-27f6-4e72-8f4c-65c19d6c1951"
+      }
     }
   }
 }
