@@ -1,6 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-// copilot import webview
 import { WebView } from 'react-native-webview';
 export default function App() {
   return (
